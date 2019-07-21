@@ -49,5 +49,9 @@ public class FileUploadServlet extends HttpServlet {
             System.out.println(e);
         }
 
+        request.getRequestDispatcher("/WEB-INF/views/downloadpage.jsp").forward(request, response);
+
     }
+
+
 }
