@@ -1,0 +1,7 @@
+#files from intellij
+*.log
+*.class
+*.lst
+.idea/workspace.xml
+/target
+/.idea
