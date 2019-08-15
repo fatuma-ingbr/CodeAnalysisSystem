@@ -11,7 +11,6 @@
     <title>Code Analyzer</title>
 
     <style><%@include file="/WEB-INF/views/style/style.css"%></style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
     <!--Form that takes in user file. The enctype is multipart since..
@@ -22,6 +21,7 @@
         <input type="submit" value="Upload" onclick="upload()" /> <br><br>
     </form>
 
-    <script src="javascript/main.js"></script>
+    <div><a href="index.jsp">Go Back to Home Page</a> <a href="/logout.do">Logout</a></div>
+
 </body>
 </html>

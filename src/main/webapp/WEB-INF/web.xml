@@ -5,7 +5,7 @@
 
     <welcome-file-list>
         <!--//TO CHANGE TO LANDING PAGE-->
-        <welcome-file>fileupload.do</welcome-file>
+        <welcome-file>register.do</welcome-file>
     </welcome-file-list>
 
 </web-app>
